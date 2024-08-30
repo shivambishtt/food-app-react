@@ -1,0 +1,47 @@
+.menu {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.menu h1 {
+  font-size: 3vw;
+  color: #262626;
+}
+.menu-text {
+  max-width: 60%;
+  color: #808080;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  text-align: center;
+  overflow-x: scroll;
+}
+.menu-item-name {
+  margin-top: 8px;
+  font-size: max(1.4vw, 16px);
+  color: #747474;
+}
+.menu-item img {
+  width: 7.5vw;
+  min-width: 80px;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+hr {
+  margin: 10px 0px;
+  height: 2px;
+  color: #e2e2e2;
+}
+
+.menu-list .active {
+  border: 5px solid tomato;
+  transition: 0.2s;
+}

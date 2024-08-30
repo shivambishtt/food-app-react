@@ -1,0 +1,27 @@
+.food-item {
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+  transition: 0.3s;
+  animation: fadeIn 2s;
+  box-shadow: 0px 0px 10px #00000015;
+}
+.food-item-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.food-item-info {
+  padding: 20px;
+}
+.food-item-name-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.food-item-name-rating p {
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+.food-item-description {
+  margin: 15px 0px;
+}

@@ -82,41 +82,50 @@ export const assets = {
     parcel_icon
 }
 
-export const menu_list = [
+export const menuList = [
     {
-        menu_name: "Salad",
-        menu_image: menu_1
+        menuName: "Salad",
+        menuImage
+            : menu_1
     },
     {
-        menu_name: "Rolls",
-        menu_image: menu_2
+        menuName: "Rolls",
+        menuImage
+            : menu_2
     },
     {
-        menu_name: "Deserts",
-        menu_image: menu_3
+        menuName: "Deserts",
+        menuImage
+            : menu_3
     },
     {
-        menu_name: "Sandwich",
-        menu_image: menu_4
+        menuName: "Sandwich",
+        menuImage
+            : menu_4
     },
     {
-        menu_name: "Cake",
-        menu_image: menu_5
+        menuName: "Cake",
+        menuImage
+            : menu_5
     },
     {
-        menu_name: "Pure Veg",
-        menu_image: menu_6
+        menuName: "Pure Veg",
+        menuImage
+            : menu_6
     },
     {
-        menu_name: "Pasta",
-        menu_image: menu_7
+        menuName: "Pasta",
+        menuImage
+            : menu_7
     },
     {
-        menu_name: "Noodles",
-        menu_image: menu_8
+        menuName
+            : "Noodles",
+        menuImage
+            : menu_8
     }]
 
-export const food_list = [
+export const foodList = [
     {
         _id: "1",
         name: "Greek salad",
