@@ -7,6 +7,7 @@ function Navbar() {
     //So what we can do to achieve this is we will simply create onClick method on li elements then we will update the state
     const [items, setItems] = useState("Home")
 
+
     return (
         <div className='navbar'>
             <img className='logo' src={assets.logo} alt="" srcSet="" />
