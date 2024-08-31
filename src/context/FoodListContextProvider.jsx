@@ -4,8 +4,7 @@ import { useState } from 'react';
 
 
 const FoodListContextProvider = ({ children }) => {
-    // Now we want to create a functionality that removes the cartItem from the cart
-    // So in order to achieve this functionality what we can do is we will take the setCartItem then we will access to the itemId after that we will simply return an object which will have access to the previous cart items and i will simply -1 itemId from it
+    // In order to create a functionality that filters the document based on the veg or non veg
     const [cartItems, setCartItems] = useState({})
 
     const addToCart = (itemId) => {
@@ -25,8 +24,11 @@ const FoodListContextProvider = ({ children }) => {
             return { ...cartItems, [itemId]: cartItems[itemId] - 1 }
         })
     }
+
+
+
     return (
-        <FoodListContext.Provider value={{ foodList, addToCart, removeFromCart, setCartItems, cartItems }}>
+        <FoodListContext.Provider value={{ foodList, addToCart, removeFromCart, cartItems }}>
             {children}
         </FoodListContext.Provider>
     )
