@@ -25,3 +25,13 @@
 .food-item-description {
   margin: 15px 0px;
 }
+.food-item-pricing {
+  color: tomato;
+  font-size: 22px;
+}
+.food-item-count button {
+  font-size: 1.5vw;
+  padding: 2px 12px;
+  border: none;
+  background-color: tomato;
+}

@@ -12,7 +12,7 @@ function Menu({ category, setCategory }) {
                     return (<div onClick={() => setCategory(prev => prev === menuItem.menuName ? "All" : menuItem.menuName)}
                         key={index}
                         className='menu-item'>
-                        <img className={category === menuItem.menuName ? "active" : ""} src={menuItem.menuImage} alt="" srcset="" />
+                        <img className={category === menuItem.menuName ? "active" : ""} src={menuItem.menuImage} alt="" srcSet="" />
                         <p className='menu-item-name'>{menuItem.menuName}</p>
                     </div>)
                 })}
