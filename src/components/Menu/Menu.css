@@ -45,3 +45,11 @@ hr {
   border: 5px solid tomato;
   transition: 0.2s;
 }
+
+@media (max-width: 1050px) {
+  .menu-text{
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+}
